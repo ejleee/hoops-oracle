@@ -1,0 +1,12 @@
+.env
+.claude/
+model/saved/*.pt
+data/raw/
+*.csv
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+frontend/build/
+*.egg-info/
+.venv/

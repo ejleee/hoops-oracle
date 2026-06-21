@@ -1,8 +1,6 @@
-# 🏀 Hoops Oracle — Live NBA Win Probability Tracker
+# Hoops Oracle — Live NBA Win Probability Tracker
 
 A real-time NBA win probability tracker powered by a PyTorch neural network. Trained on 4,500+ historical games of play-by-play data, it streams live predictions to a React dashboard that updates every 5 seconds during live games.
-
-![Dashboard Preview](https://img.shields.io/badge/status-live-brightgreen) ![Python](https://img.shields.io/badge/python-3.13-blue) ![React](https://img.shields.io/badge/react-18-61dafb) ![PyTorch](https://img.shields.io/badge/pytorch-2.6-ee4c2c)
 
 ---
 
@@ -20,7 +18,7 @@ A real-time NBA win probability tracker powered by a PyTorch neural network. Tra
 
 - Live win probability updated every 5 seconds during NBA games
 - Team colors automatically matched to each matchup
-- Win probability chart that builds throughout the game (persists across page refreshes)
+- Win probability chart that builds throughout the game and persists across page refreshes
 - Play-by-play feed with probability deltas per play
 - Game selector when multiple games are live simultaneously
 - Replay mode for testing with historical games
@@ -147,12 +145,3 @@ hoops-oracle/
 - Request body size capped at 4 KB
 - Game IDs sanitized before use in external URLs
 - CORS restricted to configured origins
-
----
-
-## Deployment
-
-- **Frontend**: Vercel
-- **Backend**: AWS Elastic Beanstalk
-
-*Deployment guide coming soon.*

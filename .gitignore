@@ -1,6 +1,7 @@
 .env
 .claude/
 model/saved/*.pt
+model/saved/*.pkl
 data/raw/
 *.csv
 __pycache__/

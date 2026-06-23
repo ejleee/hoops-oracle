@@ -1,5 +1,4 @@
 .env
-.claude/
 model/saved/*.pt
 model/saved/*.pkl
 data/raw/

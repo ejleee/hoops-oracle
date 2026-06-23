@@ -254,9 +254,9 @@ export default function WinProbabilityDashboard() {
 
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 12 }}>
           <span style={{ fontSize: 20, filter: connected ? 'none' : 'grayscale(100%) opacity(0.4)' }}>🏀</span>
-          <span style={{ color: connected ? theme.green : theme.muted }}>
-            {connected ? 'LIVE' : 'NO GAME TO DISPLAY'}
-          </span>
+          {!connected && (
+            <span style={{ color: theme.muted }}>NO GAME TO DISPLAY</span>
+          )}
         </div>
       </div>
 
